@@ -1,3 +1,29 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:wght@100..900&display=swap');
+</style>
 body{
-    background-color: lemonchiffon;
+
+    font-family: "Roboto Slab";
+}
+h1{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+
+img{
+  display: block;
+  margin: auto;
+  border-radius: 50%;
+  width: 500px;
+  height: 500px;
+  object-fit: cover;
+  transition: all 0.5s;
+}
+
+img:hover{
+    transform: scale(1.1);
 }

@@ -73,3 +73,49 @@ img:hover{
  a:hover{
     background: green;
  }
+
+ #maps {
+   margin: 40px auto;
+   width: 100%;
+   height: 450px;
+ }
+  
+   #maps iframe {
+   width: 100%;
+   height: 100%;
+  }
+
+  #formContainer{
+   width: 40%;
+   background: floralwhite;
+   padding: 50px 0;
+   margin: 40px auto;
+  }
+
+  #formcontainer form {
+   width: 80px;
+   margin: 80px auto;
+  }
+
+  #formcontainer label{
+   display: block;
+   margin-bottom: 10px;
+   font-weight: bold;
+   font-size: 24px ;
+  }
+
+  #Formcontainer input, #formcontainer textarea {
+   display: block;
+   border : 2px solid beige;
+   border-radius: 8px;
+   height: 25px;
+   padding: 10px;
+   font-size: 24px;
+   width: 100%;
+   margin-bottom: 15px;
+  }
+   
+  #formcontainer textarea {
+   height: 100px;
+  }
+

@@ -98,16 +98,17 @@ img:hover{
    width: 10px;
    margin: 40px auto;
   }
-
-  #formcontainer label{
+ 
+   label{
    display: block;
    margin-bottom: 20px;
    font-weight: bold;
-   font-size: 24px ;
+   font-size: 24px;
    margin: auto;
-  }
+   margin-left:150px;
+  } 
 
-  #Formcontainer input, #formcontainer textarea {
+  #Formcontainer input,textarea {
    display:block;
    border : 2px solid rgb(226, 226, 154);
    border-radius: 8px;
@@ -124,6 +125,6 @@ img:hover{
    margin: auto;
   }
 
-  #formcontainer button {
-   background-color: blanchedalmond;
+ input[type=submit] {
+   background-color: yellow;
   }

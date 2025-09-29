@@ -62,7 +62,7 @@ img:hover{
 
  a{
     background:orangered;
-    color: white;
+    color: rgb(207, 141, 141);
     padding: 20px;
     display:block;
     margin:40px auto;
@@ -87,45 +87,46 @@ img:hover{
    height: 100%;
   }
 
-  #formContainer {
+  #FormContainer {
    width: 40%;
-   background: rgb(86, 48, 61);
+   background: rgb(86, 66, 73);
    padding: 50px 0;
-   margin: auto;
-   margin-top:auto;
-  }
-
-  #formcontainer form {
-   width: 10px;
    margin: 40px auto;
   }
+
+  #Formcontainer form {
+   width: 80%;
+   margin: auto;
+  }
  
-   label{
+   #Formcontainer label{
    display: block;
-   margin-bottom: 50px;
+   margin-bottom: 5px;
    font-weight: bold;
    font-size: 24px;
-   margin: auto;
-   margin-left:150px;
+   
   } 
 
   #Formcontainer input,textarea {
    display:block;
-   border : 2px solid rgb(226, 226, 154);
+   border : 2px solid rgb(243, 243, 38);
    border-radius: 8px;
-   height: 40px;
+   height: 25px;
    padding: 10px;
    font-size: 24px;
-   width: 80%;
-   margin: auto;
-   margin-bottom: 30px;
+   width: 100%;
+   margin-bottom: 20px;
    }
    
-  #formcontainer textarea {
+  #Formcontainer textarea {
    height: 100px;
-   margin: auto;
-  }
+    }
 
  input[type=submit] {
-   background-color: yellow;
-  }
+   background-color: rgb(56, 233, 186);
+  padding: 30px 20px;
+  font-size: 1.2em;
+  width: 180px;
+  height: 50px;
+   cursor: pointer;
+    }

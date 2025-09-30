@@ -1,6 +1,5 @@
-<style>
 @import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:wght@100..900&display=swap');
-</style>
+
 
 body{
  
@@ -89,7 +88,7 @@ img:hover{
 
   #FormContainer {
    width: 40%;
-   background: rgb(86, 66, 73);
+   background: rgb(219, 212, 215);
    padding: 50px 0;
    margin: 40px auto;
   }
@@ -122,11 +121,12 @@ img:hover{
    height: 100px;
     }
 
- input[type=submit] {
+  #Formcontainer input[type="submit"] {
    background-color: rgb(56, 233, 186);
-  padding: 30px 20px;
+  padding: 20px 20px;
   font-size: 1.2em;
   width: 180px;
   height: 50px;
    cursor: pointer;
-    }
+   }
+
